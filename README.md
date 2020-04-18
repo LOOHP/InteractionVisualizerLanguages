@@ -1,6 +1,11 @@
-# InteractionVisualizerLanguages
+# InteractionVisualizer Languages
+
+https://www.spigotmc.org/resources/77050/
+
 Configuration in different Languages submitted from the users
+
 Some translations might be inaccurate or out-dated
+
 You are always welcome to contribute to this list
 
 Languages avalible:
