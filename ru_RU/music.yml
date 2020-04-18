@@ -1,0 +1,36 @@
+#Russian Language default music.yml translated by imDaniX
+#https://www.spigotmc.org/members/imdanix.99979/
+#Replace the original "music.yml" to use!
+
+Instruments:
+  BANJO: Банджо
+  BASS_DRUM: Басовый Барабан
+  BASS_GUITAR: Бас-Гитара
+  BELL: Глокеншпиль
+  BIT: Бит
+  CHIME: Колокольчик
+  COW_BELL: Ковбелл
+  DIDGERIDOO: Диджериду
+  FLUTE: Флейта
+  GUITAR: Гитара
+  IRON_XYLOPHONE: Железный Ксилофон
+  PIANO: Пианино
+  PLING: Цифровое Фортепиано
+  SNARE_DRUM: Малый Барабан
+  STICKS: Палочки
+  XYLOPHONE: Ксилофон
+
+Discs:
+  MUSIC_DISC_11: C418 - 11
+  MUSIC_DISC_13: C418 - 13
+  MUSIC_DISC_BLOCKS: C418 - Blocks
+  MUSIC_DISC_CAT: C418 - Cat
+  MUSIC_DISC_CHIRP: C418 - Chirp
+  MUSIC_DISC_FAR: C418 - Far
+  MUSIC_DISC_MALL: C418 - Mall
+  MUSIC_DISC_MELLOHI: C418 - Mellohi
+  MUSIC_DISC_STAL: C418 - Stal
+  MUSIC_DISC_STRAD: C418 - Strad
+  MUSIC_DISC_WAIT: C418 - Wait
+  MUSIC_DISC_WARD: C418 - Ward
+  MUSIC_DISC_PIGSTEP: Lena Raine - Pigstep
