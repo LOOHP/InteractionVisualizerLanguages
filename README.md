@@ -16,3 +16,4 @@ Languages avalible:
 - Russian (by imDaniX)
 - Simplified Chinese (by StarYunmeng & BackWheel)
 - Persian (by tntbaz)
+- German (by Nachtalb)
