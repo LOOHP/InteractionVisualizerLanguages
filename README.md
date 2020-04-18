@@ -15,3 +15,4 @@ Languages avalible:
 - Brazilian Portuguese (by fabricio9898)
 - Russian (by imDaniX)
 - Simplified Chinese (by StarYunmeng & BackWheel)
+- Persian (by tntbaz)
