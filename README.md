@@ -14,6 +14,6 @@ Languages avalible:
 - French (by Cry_Legende)
 - Brazilian Portuguese (by fabricio9898)
 - Russian (by imDaniX)
-- Simplified Chinese (by StarYunmeng & BackWheel)
+- Simplified Chinese (by StarYunmeng, BackWheel & EsummerConnor)
 - Persian (by tntbaz)
 - German (by Nachtalb)
