@@ -1,5 +1,7 @@
 #This is the default enchantment.yml in English
 #Replace the original "enchantment.yml" to use!
+Translations:
+    LEVEL: Level
 
 Enchantments:
     PROTECTION_FIRE: Fire Protection
