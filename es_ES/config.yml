@@ -1,10 +1,3 @@
-GarbageCollector:
-  Period: 600
-TileEntityUpdate:
-  ChunksPerTick: 4
-Entities:
-  Villager:
-    Enabled: true
 Database:
   Type: SQLITE
   MYSQL:
@@ -13,6 +6,7 @@ Database:
     Database: InteractionVisualizer
     Username: mysql
     Password: password
+    
 Messages:
   NoPermission: '&c¡No tienes permisos para usar este comando!'
   Reload: '&a¡InteractionVisualizer se recargó exitosamente!'
@@ -24,6 +18,13 @@ Messages:
     ToggleOn: '&a%s se habilitó'
     ToggleOff: '&e%s se deshabilitó'
     PlayerNotFound: '&c¡El jugador no esta en línea!'
+    
+GarbageCollector:
+  Period: 600
+
+TileEntityUpdate:
+  ChunksPerTick: 4
+    
 Blocks:
   Beacon:
     Enabled: true
@@ -67,6 +68,11 @@ Blocks:
     Enabled: true
   Stonecutter:
     Enabled: true
+    
+Entities:
+  Villager:
+    Enabled: true
+    
 Modules:
   ItemStand:
     Enabled: true
@@ -74,6 +80,7 @@ Modules:
     Enabled: true
   Hologram:
     Enabled: true
+    
 Options:
   DownloadLanguageFiles: true
   Updater: true
