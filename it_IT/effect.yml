@@ -3,7 +3,7 @@
 Effects:
   ABSORPTION: Assorbimento
   BAD_OMEN: Cattivo Presagio
-  BLINDNESS: "Cecit\u00e0"
+  BLINDNESS: "Cecit\u00E0"
   CONDUIT_POWER: Energia condotta
   CONFUSION: Nausea
   DAMAGE_RESISTANCE: Resistenza
@@ -17,18 +17,18 @@ Effects:
   HERO_OF_THE_VILLAGE: Eroe del villaggio
   HUNGER: Fame
   INCREASE_DAMAGE: Forza
-  INVISIBILITY: "Invisibilit\u00e0"
+  INVISIBILITY: "Invisibilit\u00E0"
   JUMP: Salto ampliato
   LEVITATION: Levitazione
   LUCK: Fortuna
   NIGHT_VISION: Visione notturna
   POISON: Avvelenamento
   REGENERATION: Rigenerazione
-  SATURATION: "Saziet\u00e0"
+  SATURATION: "Saziet\u00E0"
   SLOW: Lentezza
   SLOW_DIGGING: Affaticamento
   SLOW_FALLING: Caduta lenta
-  SPEED: "Velocit\u00e0"
+  SPEED: "Velocit\u00E0"
   UNLUCK: Sfortuna
   WATER_BREATHING: Apnea
   WEAKNESS: Debolezza
