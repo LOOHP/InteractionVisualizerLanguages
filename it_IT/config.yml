@@ -14,11 +14,11 @@ Messages:
   NoPermission: "&cNon hai il permesso di usare quel comando!"
   Reload: "&aInteractionVisualizer ricaricato con successo!"
   Toggle:
-    Usage: "&cUsage: /interactionvisualizer toggle <itemstand/itemdrop/hologram>"
+    Usage: "&cSintassi: /interactionvisualizer toggle <itemstand/itemdrop/hologram>"
     Modes: "&cModalità dei toggle: itemstand, itemdrop, hologram"
     Console: "&cPer favore, fornisci il nome di un giocatore: /interactionvisualizer toggle <modalità> [giocatore]"
-    ToggleOn: "&aToggled %s on" #da fare
-    ToggleOff: "&eToggled %s off" #da fare
+    ToggleOn: "&aAcceso"
+    ToggleOff: "&eSpento"
     PlayerNotFound: "&cIl giocatore non è online!"
 
 GarbageCollector:
