@@ -1,0 +1,35 @@
+#effect.yml in Italiano
+
+Effects:
+  ABSORPTION: Assorbimento
+  BAD_OMEN: Cattivo Presagio
+  BLINDNESS: "Cecit\u00E0"
+  CONDUIT_POWER: Energia condotta
+  CONFUSION: Nausea
+  DAMAGE_RESISTANCE: Resistenza
+  DOLPHINS_GRACE: Grazia del delfino
+  FAST_DIGGING: Sollecitudine
+  FIRE_RESISTANCE: Resistenza al fuoco
+  GLOWING: Luminescenza
+  HARM: Danno istantaneo
+  HEAL: Salute istantanea
+  HEALTH_BOOST: Salute ampliata
+  HERO_OF_THE_VILLAGE: Eroe del villaggio
+  HUNGER: Fame
+  INCREASE_DAMAGE: Forza
+  INVISIBILITY: "Invisibilit\u00E0"
+  JUMP: Salto ampliato
+  LEVITATION: Levitazione
+  LUCK: Fortuna
+  NIGHT_VISION: Visione notturna
+  POISON: Avvelenamento
+  REGENERATION: Rigenerazione
+  SATURATION: "Saziet\u00E0"
+  SLOW: Lentezza
+  SLOW_DIGGING: Affaticamento
+  SLOW_FALLING: Caduta lenta
+  SPEED: "Velocit\u00E0"
+  UNLUCK: Sfortuna
+  WATER_BREATHING: Apnea
+  WEAKNESS: Debolezza
+  WITHER: Avvizzimento
