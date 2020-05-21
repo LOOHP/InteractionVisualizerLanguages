@@ -24,3 +24,4 @@ Even if the config is outdated, you can still reference to it and in most cases 
 - Simplified Chinese (by StarYunmeng, BackWheel & EsummerConnor)
 - Persian (by tntbaz)
 - German (by Nachtalb)
+- Italian (by MrBackSlash-it)
