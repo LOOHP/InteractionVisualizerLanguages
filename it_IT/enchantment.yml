@@ -6,12 +6,12 @@ Enchantments:
     PROTECTION_FIRE: Protezione dal fuoco
     DAMAGE_ALL: Affilatezza
     ARROW_FIRE: Fiamma
-    WATER_WORKER: "Affinit\u00e0 all\u0027 acqua"
+    WATER_WORKER: "Affinit\u00E0 all\u0027 acqua"
     ARROW_KNOCKBACK: Potenza
-    LOYALTY: "Lealt\u00e0"
+    LOYALTY: "Lealt\u00E0"
     DEPTH_STRIDER: Passo anfibio
     VANISHING_CURSE: Maledizione della scomparsa
-    DURABILITY: "Indistruttibilit\u00e0"
+    DURABILITY: "Indistruttibilit\u00E0"
     KNOCKBACK: Contraccolpo
     LUCK: Fortuna del mare
     BINDING_CURSE: "Maledizione del legame"
@@ -39,4 +39,4 @@ Enchantments:
     IMPALING: Impalamento
     PROTECTION_FALL: Atterraggio morbido
     ARROW_DAMAGE: Potenza
-    ARROW_INFINITE: "Infinit\u00e0"
+    ARROW_INFINITE: "Infinit\u00E0"
