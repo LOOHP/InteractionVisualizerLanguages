@@ -32,7 +32,6 @@ TileEntityUpdate:
   #Il plugin raccoglierà prima i chunk attivi (3x3 chunk attorno al giocatore)
   #Poi carica tutte le entità tile
   #Attenzione, il periodo è leggermente più lungo di ChunksPerTick per completare altre operazioni
-  #Adjust this if your server is unable to handle fast updates
   #Modifica questo valore se il tuo server non riesce a reggere aggionramenti veloci
   ChunksPerTick: 4
   #Imposta questo valore su false solo se stai avendo problemi
