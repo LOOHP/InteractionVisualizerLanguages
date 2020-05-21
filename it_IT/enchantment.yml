@@ -1,0 +1,42 @@
+#enchantment.yml in Italiano
+Translations:
+    LEVEL: Livello
+
+Enchantments:
+    PROTECTION_FIRE: Protezione dal fuoco
+    DAMAGE_ALL: Affilatezza
+    ARROW_FIRE: Fiamma
+    WATER_WORKER: "Affinit\u00e0 all\u0027 acqua"
+    ARROW_KNOCKBACK: Potenza
+    LOYALTY: "Lealt\u00e0"
+    DEPTH_STRIDER: Passo anfibio
+    VANISHING_CURSE: Maledizione della scomparsa
+    DURABILITY: "Indistruttibilit\u00e0"
+    KNOCKBACK: Contraccolpo
+    LUCK: Fortuna del mare
+    BINDING_CURSE: "Maledizione del legame"
+    LOOT_BONUS_BLOCKS: Fortuna
+    PROTECTION_ENVIRONMENTAL: Protezione
+    DIG_SPEED: Efficienza
+    MENDING: Ripristino
+    FROST_WALKER: Passo gelato
+    LURE: Esca
+    LOOT_BONUS_MOBS: Saccheggio
+    PIERCING: Perforazione
+    PROTECTION_EXPLOSIONS: Protezione dalle esplosioni
+    DAMAGE_UNDEAD: Anatema
+    MULTISHOT: Tiro muliplo
+    FIRE_ASPECT: Aspetto di fuoco
+    CHANNELING: Canalizzazione
+    SWEEPING_EDGE: Lama sferzante
+    THORNS: Spine
+    DAMAGE_ARTHROPODS: Flagello degli artropodi
+    OXYGEN: Respirazione
+    RIPTIDE: Risacca
+    SILK_TOUCH: Tocco di velluto
+    QUICK_CHARGE: Carica rapida
+    PROTECTION_PROJECTILE: Protezione dai proiettili
+    IMPALING: Impalamento
+    PROTECTION_FALL: Atterraggio morbido
+    ARROW_DAMAGE: Potenza
+    ARROW_INFINITE: "Infinit\u00e0"
