@@ -5,7 +5,7 @@ https://www.spigotmc.org/resources/77050/
 https://github.com/LOOHP/InteractionVisualizer
 
 ***
-### Configuration in different Languages contributed by different people in the community!
+### Configurations in different Languages contributed by different people in the community!
 
 **Some translations might be inaccurate or not up to date**, but the default English language is always up to date.
 
