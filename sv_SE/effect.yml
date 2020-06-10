@@ -1,0 +1,37 @@
+#Swedish Language default "effect.yml" translated by Luracasmus
+#https://luracasmus.wixsite.com/luracasmus
+#Ersätt den originala "effect.yml" för att använda!
+
+Effects:
+  ABSORPTION: Absorbering
+  BAD_OMEN: Ond föraning
+  BLINDNESS: Blindhet
+  CONDUIT_POWER: Flödeskraft
+  CONFUSION: Illamående
+  DAMAGE_RESISTANCE: Resistans
+  DOLPHINS_GRACE: "\u0027sDelfingåva"
+  FAST_DIGGING: Skyndsamhet
+  FIRE_RESISTANCE: Eldresistans
+  GLOWING: Glödande
+  HARM: Omedelbar skada
+  HEAL: Omedelbar hälsa
+  HEALTH_BOOST: Hälsobonus
+  HERO_OF_THE_VILLAGE: Byns hjälte
+  HUNGER: Hunger
+  INCREASE_DAMAGE: Styrka
+  INVISIBILITY: Osynlighet
+  JUMP: Hoppstyrka
+  LEVITATION: Levitation
+  LUCK: Tur
+  NIGHT_VISION: Mörkerseende
+  POISON: Gift
+  REGENERATION: Åtemhämtning
+  SATURATION: Mättnad
+  SLOW: Långsamhet
+  SLOW_DIGGING: Trötthet
+  SLOW_FALLING: Långsamt fall
+  SPEED: Hastighet
+  UNLUCK: Otur
+  WATER_BREATHING: Vattenandning
+  WEAKNESS: Svaghet
+  WITHER: Vissnande
