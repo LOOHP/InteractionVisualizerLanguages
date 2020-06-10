@@ -27,3 +27,4 @@ Even if the config is outdated, you can still reference to it and in most cases 
 - Persian (by tntbaz)
 - German (by Nachtalb)
 - Italian (by MrBackSlash-it)
+- Swedish (by Luracasmus)
