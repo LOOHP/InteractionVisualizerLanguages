@@ -1,0 +1,44 @@
+#Swedish Language default "enchantment.yml" translated by Luracasmus
+#https://luracasmus.wixsite.com/luracasmus
+#Ersätt den originala "enchantment.yml" för att använda!
+Translations:
+    LEVEL: Nivå
+
+Enchantments:
+    PROTECTION_FIRE: Eldskydd
+    DAMAGE_ALL: Skärpa
+    ARROW_FIRE: Flamma
+    WATER_WORKER: Vattenvana
+    ARROW_KNOCKBACK: Slag
+    LOYALTY: Lojalitet
+    DEPTH_STRIDER: Djupgående
+    VANISHING_CURSE: Försvinnandets förbannelse
+    DURABILITY: Oförstörbar
+    KNOCKBACK: Knuff
+    LUCK: Fiskelycka
+    BINDING_CURSE: Bindningsförbannelse
+    LOOT_BONUS_BLOCKS: Rikedom
+    PROTECTION_ENVIRONMENTAL: Skydd
+    DIG_SPEED: Effektivitet
+    MENDING: Lagning
+    FROST_WALKER: Frostgående
+    LURE: Bete
+    LOOT_BONUS_MOBS: Plundring
+    PIERCING: Genomträngande
+    PROTECTION_EXPLOSIONS: Explosionsskydd
+    DAMAGE_UNDEAD: Heligt
+    MULTISHOT: Multiskott
+    FIRE_ASPECT: Eldkraft
+    CHANNELING: Kanalisering
+    SWEEPING_EDGE: Svepande svärdsegg
+    THORNS: Taggar
+    DAMAGE_ARTHROPODS: Leddjurens skräck
+    OXYGEN: Andning
+    RIPTIDE: Tidvattenvåg
+    SILK_TOUCH: Silkesvante
+    QUICK_CHARGE: Snabbladdning
+    PROTECTION_PROJECTILE: Projektilskydd
+    IMPALING: Spetsning
+    PROTECTION_FALL: Fjäderfall
+    ARROW_DAMAGE: Kraft
+    ARROW_INFINITE: Oändlig
