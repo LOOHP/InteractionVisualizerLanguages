@@ -1,5 +1,6 @@
 #This is the default enchantment.yml in English
 #Replace the original "enchantment.yml" to use!
+
 Translations:
     LEVEL: Level
 
@@ -41,3 +42,4 @@ Enchantments:
     PROTECTION_FALL: Feather Falling
     ARROW_DAMAGE: Power
     ARROW_INFINITE: Infinity
+    SOUL_SPEED: Soul Speed
