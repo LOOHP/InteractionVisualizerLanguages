@@ -1,9 +1,9 @@
 #Swedish Language default "enchantment.yml" translated by Luracasmus
 #https://luracasmus.wixsite.com/luracasmus
 #Ersätt den originala "enchantment.yml" för att använda!
+
 Translations:
     LEVEL: Nivå
-
 Enchantments:
     PROTECTION_FIRE: Eldskydd
     DAMAGE_ALL: Skärpa

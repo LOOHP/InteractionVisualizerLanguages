@@ -1,0 +1,44 @@
+#Turkish Language default "enchatment.yml" translated by Over_Brave
+#Replace the original "enchatment.yml" to use!
+
+Translations:
+  LEVEL: Seviye
+Enchantments:
+  PROTECTION_FIRE: Ateşten koruma
+  DAMAGE_ALL: Keskinlik
+  ARROW_FIRE: Alev
+  WATER_WORKER: Su adaptasyonu
+  ARROW_KNOCKBACK: Yumruk
+  LOYALTY: Sadakat
+  DEPTH_STRIDER: Derin koşucu
+  VANISHING_CURSE: Kaybolma laneti
+  DURABILITY: Kırılmazlık
+  KNOCKBACK: Savurma
+  LUCK: Denizin şansı
+  BINDING_CURSE: Bağlanma laneti
+  LOOT_BONUS_BLOCKS: Servet
+  PROTECTION_ENVIRONMENTAL: Koruma
+  DIG_SPEED: Verimlilik
+  MENDING: Tamir
+  FROST_WALKER: Kırağılaştırıcı Yürüyücü
+  LURE: Ayartma
+  LOOT_BONUS_MOBS: Ganimet
+  PIERCING: Delme
+  PROTECTION_EXPLOSIONS: Patlama koruması
+  DAMAGE_UNDEAD: Darbe
+  MULTISHOT: Çoklu atış
+  FIRE_ASPECT: Alevden çehre
+  CHANNELING: Yıldırım yönlendirmesi
+  SWEEPING_EDGE: Süpürücü kenar
+  THORNS: Dikenler
+  DAMAGE_ARTHROPODS: Eklembacaklıların kıyameti
+  OXYGEN: Solungaç
+  RIPTIDE: Girdap
+  SILK_TOUCH: İpeksi dokunuş
+  QUICK_CHARGE: Hızlı çekiş
+  PROTECTION_PROJECTILE: Atkı koruması
+  IMPALING: Şişleme
+  PROTECTION_FALL: Tüy düşüşü
+  ARROW_DAMAGE: Güç
+  ARROW_INFINITE: Sonsuzluk
+  SOUL_SPEED: Ruh hızı
