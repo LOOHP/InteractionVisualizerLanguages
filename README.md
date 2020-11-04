@@ -28,3 +28,4 @@ Even if the config is outdated, you can still reference to it and in most cases 
 - German (by Nachtalb)
 - Italian (by MrBackSlash-it)
 - Swedish (by Luracasmus)
+- Turkish (by Over_Brave)
