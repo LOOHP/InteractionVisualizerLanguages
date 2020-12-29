@@ -56,17 +56,34 @@ Blocks:
     CheckingPeriod: 20
   BlastFurnace:
     Enabled: true
-    CheckingPeriod: 20
+    CheckingPeriod: 10
+    Options:
+      ProgressBarCharacter: "\u258e"
+      EmptyColor: "&7"
+      FilledColor: "&e"
+      NoFuelColor: "&c"
+      ProgressBarLength: 10
+      AmountPending: " &7+{Amount}"
   BrewingStand:
     Enabled: true
     CheckingPeriod: 20
+    Options:
+      ProgressBarCharacter: "\u258e"
+      EmptyColor: "&7"
+      FilledColor: "&6"
+      NoFuelColor: "&c"
+      ProgressBarLength: 10
   CartographyTable:
     Enabled: true
   Chest:
     Enabled: true
   CraftingTable:
     Enabled: true
+  Dispenser:
+    Enabled: true
   DoubleChest:
+    Enabled: true
+  Dropper:
     Enabled: true
   EnchantmentTable:
     Enabled: true
@@ -75,7 +92,16 @@ Blocks:
   Furnace:
     Enabled: true
     CheckingPeriod: 20
+    Options:
+      ProgressBarCharacter: "\u258e"
+      EmptyColor: "&7"
+      FilledColor: "&e"
+      NoFuelColor: "&c"
+      ProgressBarLength: 10
+      AmountPending: " &7+{Amount}"
   Grindstone:
+    Enabled: true
+  Hopper:
     Enabled: true
   JukeBox:
     Enabled: true
@@ -88,7 +114,14 @@ Blocks:
     Enabled: true
   Smoker:
     Enabled: true
-    CheckingPeriod: 20
+    CheckingPeriod: 10
+    Options:
+      ProgressBarCharacter: "\u258e"
+      EmptyColor: "&7"
+      FilledColor: "&e"
+      NoFuelColor: "&c"
+      ProgressBarLength: 10
+      AmountPending: " &7+{Amount}"
   Stonecutter:
     Enabled: true
   ShulkerBox:
@@ -112,6 +145,7 @@ Modules:
 
 Settings:
   UseHandSwingAnimation: true
+  PickupAnimationPlayerYOffset: 0
 
 Options:
   Updater: true
