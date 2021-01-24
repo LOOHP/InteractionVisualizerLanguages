@@ -2,6 +2,9 @@
 #https://github.com/BackWheel
 #Replace the original "enchantment.yml" to use!
 
+Translations:
+    LEVEL: 等级
+    
 Enchantments:
   PROTECTION_FIRE: 火焰保护
   DAMAGE_ALL: 锋利
@@ -40,3 +43,4 @@ Enchantments:
   PROTECTION_FALL: 摔落保护
   ARROW_DAMAGE: 力量
   ARROW_INFINITE: 无限
+  SOUL_SPEED: 灵魂疾行
