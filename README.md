@@ -23,7 +23,7 @@ Even if the config is outdated, you can still reference to it and in most cases 
 - French (by Cry_Legende)
 - Brazilian Portuguese (by fabricio9898)
 - Russian (by imDaniX)
-- Simplified Chinese (by StarYunmeng, BackWheel & EsummerConnor)
+- Simplified Chinese (by StarYunmeng, BackWheel, EsummerConnor & ahdg6)
 - Persian (by tntbaz)
 - German (by Nachtalb)
 - Italian (by MrBackSlash-it)
