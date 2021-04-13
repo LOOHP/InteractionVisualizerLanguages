@@ -30,13 +30,16 @@ GarbageCollector:
 
 TileEntityUpdate:
   #How fast should the plugin collect changes to tile entities since the last check
-  #The plugin will first collect all active chunks (3x3 chunk around every player)
+  #The plugin will first collect all active chunks (defined in CheckingRange)
   #Then load all the tile entities in those chunks in async
   #Note that the period is not just ChunksPerTick, it is a few ticks longer than that to deal with other things
   #Adjust this if your server is unable to handle fast updates
   ChunksPerTick: 4
   #Only turn this to false if you are having problems
   LoadTileEntitiesAsync: true
+  #The range in which tile entities in chunks around the player are checked
+  #A range of 0 means only the chunk where the player is standing in is checked
+  CheckingRange: 1
 
 LightUpdate:
   #How often should the plugin update the light level a block that requires it is used
@@ -91,6 +94,14 @@ Blocks:
       FilledColor: "&6"
       NoFuelColor: "&c"
       ProgressBarLength: 10
+  Campfire:
+    Enabled: true
+    CheckingPeriod: 20
+    Options:
+      ProgressBarCharacter: "\uff5c"
+      EmptyColor: "&7"
+      FilledColor: "&e"
+      ProgressBarLength: 10
   CartographyTable:
     Enabled: true
   Chest:
@@ -124,9 +135,17 @@ Blocks:
   JukeBox:
     Enabled: true
     CheckingPeriod: 20
+  Lectern:
+    Enabled: true
+    CheckingPeriod: 20
+    Options:
+      Line1: "&e{Title}"
+      Line2: "&7&o- {Author}"
   Loom:
     Enabled: true
   NoteBlock:
+    Enabled: true
+  ShulkerBox:
     Enabled: true
   SmithingTable:
     Enabled: true
@@ -140,9 +159,24 @@ Blocks:
       NoFuelColor: "&c"
       ProgressBarLength: 10
       AmountPending: " &7+{Amount}"
-  Stonecutter:
+  SoulCampfire:
     Enabled: true
-  ShulkerBox:
+    CheckingPeriod: 20
+    Options:
+      ProgressBarCharacter: "\uff5c"
+      EmptyColor: "&7"
+      FilledColor: "&b"
+      ProgressBarLength: 10
+  Spawner:
+    Enabled: true
+    CheckingPeriod: 20
+    Options:
+      ProgressBarCharacter: "\u258e"
+      EmptyColor: "&c"
+      FilledColor: "&a"
+      ProgressBarLength: 10
+      SpawnRange: " &f{SpawnRange}m"
+  Stonecutter:
     Enabled: true
 
 Entities:
