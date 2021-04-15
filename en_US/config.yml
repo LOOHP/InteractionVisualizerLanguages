@@ -182,6 +182,7 @@ Blocks:
       FilledColor: "&a"
       ProgressBarLength: 10
       SpawnRange: " &f{SpawnRange}m"
+      PathType: FACE
   Stonecutter:
     Enabled: true
 
