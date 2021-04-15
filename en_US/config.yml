@@ -176,13 +176,13 @@ Blocks:
   Spawner:
     Enabled: true
     CheckingPeriod: 20
+    PathType: FACE
     Options:
       ProgressBarCharacter: "\u258e"
       EmptyColor: "&c"
       FilledColor: "&a"
       ProgressBarLength: 10
       SpawnRange: " &f{SpawnRange}m"
-      PathType: FACE
   Stonecutter:
     Enabled: true
 
