@@ -1,6 +1,3 @@
-#This is the default config in English
-#Replace the original "config.yml" to use!
-
 Database:
   #Player data storage type, MYSQL or SQLITE
   Type: SQLITE
@@ -49,6 +46,8 @@ LightUpdate:
 #Enable InteractionVisualizer for these blocks
 Blocks:
   Anvil:
+    Enabled: true
+  Banner:
     Enabled: true
   Beacon:
     Enabled: true
@@ -141,6 +140,9 @@ Blocks:
   JukeBox:
     Enabled: true
     CheckingPeriod: 20
+    Options:
+      #Whether to have the name of the disc displayed or not
+      ShowDiscName: true
   Lectern:
     Enabled: true
     CheckingPeriod: 20
@@ -187,7 +189,27 @@ Blocks:
     Enabled: true
 
 Entities:
-  Villager: 
+  Item:
+    Enabled: true
+    Options:
+      #Items that matches will not have the display shown
+      Blacklist:
+        #Strip color codes when matching names
+        StripColorWhenMatching: true
+        #Regex name match
+        List:
+          - ["^ALTAR Probe.*", "NETHER_STAR"]
+          - ["^Blacklisted Item$", "*"]
+      RegularFormat: "{Item} &bx{Amount} &6[{Timer}&6]"
+      SingularFormat: "{Item} &6[{Timer}&6]"
+      ToolsFormat: "{Item} &6[{Durability}&6]"
+      #Hide if there is more than this defined amount of item entities in one block
+      Cramping: 6
+      Color:
+        High: "&a"
+        Medium: "&e"
+        Low: "&c"
+  Villager:
     Enabled: true
 
 #Enable these modules for InteractionVisualizer displays
