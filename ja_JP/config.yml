@@ -84,6 +84,7 @@ Blocks:
       EmptyColor: "&7"
       FilledColor: "&e"
       NoFuelColor: "&c"
+      #進捗バーの長さ
       ProgressBarLength: 10
       AmountPending: " &7+{Amount}"
   BrewingStand:
@@ -94,7 +95,6 @@ Blocks:
       EmptyColor: "&7"
       FilledColor: "&6"
       NoFuelColor: "&c"
-      #進捗バーの長さ
       ProgressBarLength: 10
   Campfire:
     Enabled: true
