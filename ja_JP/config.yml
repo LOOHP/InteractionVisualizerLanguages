@@ -55,7 +55,7 @@ Blocks:
     #20ティック = 1秒
     #サーバーの性能に合わせてこの値を調整してください。
     CheckingPeriod: 20
-    #表示される文字をどのようにプレイヤーに大して追従させるか
+    #表示される文字をどのようにプレイヤーに対して追従させるか
     #FACE, SQUARE, CIRCLEが使えます。
     PathType: FACE
   BeeHive:
@@ -142,7 +142,7 @@ Blocks:
     Enabled: true
     CheckingPeriod: 20
     Options:
-      #ディスクの曲名を表示するかどうか
+      #レコードの曲名を表示するかどうか
       ShowDiscName: true
   Lectern:
     Enabled: true
@@ -198,7 +198,7 @@ Entities:
     Options:
       #一致する項目は表示されない
       Blacklist:
-        #名前の一致時にカラーコードを表示
+        #名前の一致時にカラーコードを削除
         StripColorWhenMatching: true
         #正規表現を使った名前一致
         List:
@@ -217,9 +217,9 @@ Entities:
     Enabled: true
 
 #InteractionVisualizerディスプレイのために、これらのモジュールを有効にします。
-#ItemStand は、アーマースタンドとアイテムフレームを使用するすべてのディスプレイを表します。
+#ItemStand は、防具立てと額縁を使用するすべてのディスプレイを表します。
 #ItemDrop は、ドロップされたアイテムを使用するすべてのディスプレイを表します。
-#Hologram は、アーマースタンドを使用するすべてのホログラフィックディスプレイを表します。
+#Hologram は、防具立てを使用するすべてのホログラフィックディスプレイを表します。
 Modules:
   ItemStand:
     Enabled: true
