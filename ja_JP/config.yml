@@ -1,5 +1,5 @@
 Database:
-  #プレイヤーデータを保存するストレージタイプ、MYSQL または SQLITE
+  #プレイヤーデータを保存するストレージタイプ(MYSQL または SQLITE)
   Type: SQLITE
   MYSQL:
     Host: localhost
@@ -22,7 +22,7 @@ Messages:
 GarbageCollector:
   #プラグインはどれくらいの頻度で、追跡する必要のなくなったタイル・エンティティ・ブロックを掃き出し、取り除くべきか。
   #20ティック = 1秒
-  #サーバーが高速で更新の処理を行えない場合は、必要に応じてこの値を調整してください。
+  #サーバーが高速な処理を行えない場合は、必要に応じてこの値を調整してください。
   Period: 600
 
 TileEntityUpdate:
@@ -39,12 +39,13 @@ TileEntityUpdate:
 LightUpdate:
   #ライトレベルを必要とするブロックが使用されている場合、プラグインはどのくらいの頻度でライトレベルを更新する必要があるか
   #20ティック = 1秒
-  #サーバーが高速でライトアップデートを処理できない場合は、必要に応じてこの値を調整してください。
+  #サーバーが高速な処理を行えない場合は、必要に応じてこの値を調整してください。
   Period: 10
 
-#これらのブロックでInteractionVisualizerを有効にするか決められます(true=有効化、false=無効化)
+#ブロックごとのオプション
 Blocks:
   Anvil:
+    #有効にするかどうか(true=有効、false=無効)
     Enabled: true
   Banner:
     Enabled: true
@@ -93,6 +94,7 @@ Blocks:
       EmptyColor: "&7"
       FilledColor: "&6"
       NoFuelColor: "&c"
+      #進捗バーの長さ
       ProgressBarLength: 10
   Campfire:
     Enabled: true
@@ -187,8 +189,11 @@ Blocks:
   Stonecutter:
     Enabled: true
 
+
+#エンティティごとのオプション
 Entities:
   Item:
+    #有効にするかどうか(true=有効、false=無効)
     Enabled: true
     Options:
       #一致する項目は表示されない
@@ -202,7 +207,7 @@ Entities:
       RegularFormat: "{Item} &bx{Amount} &6[{Timer}&6]"
       SingularFormat: "{Item} &6[{Timer}&6]"
       ToolsFormat: "{Item} &6[{Durability}&6]"
-      #1つのブロックに定義された量以上のアイテムがある場合は非表示にする。
+      #1つのブロックに定義された量以上のアイテムがある場合は非表示にする。(デフォルト: 6)
       Cramping: 6
       Color:
         High: "&a"
@@ -224,9 +229,13 @@ Modules:
     Enabled: true
 
 Settings:
+  #手のスイングアニメーションの有無
   UseHandSwingAnimation: true
+  #アイテムを拾う時の、Y座標のオフセット
   PickupAnimationPlayerYOffset: 0
+  #機能を無効にするワールド
   DisabledWorlds: []
+  #視界が遮られた際に非表示にするか
   HideIfViewObstructed: false
   #デフォルトの言語
   #Minecraft 1.13以上では何もしない
