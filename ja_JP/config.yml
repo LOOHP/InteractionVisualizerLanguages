@@ -1,5 +1,5 @@
 Database:
-  #Player data storage type, MYSQL or SQLITE
+  #プレイヤーデータを保存するストレージタイプ、MYSQL または SQLITE
   Type: SQLITE
   MYSQL:
     Host: localhost
@@ -9,41 +9,40 @@ Database:
     Password: password
 
 Messages:
-  NoPermission: "&cYou do not have permission to use that command!"
-  Reload: "&aInteractionVisualizer sucessfully reloaded!"
+  NoPermission: "&cあなたにはそのコマンドを使う権限がありません！"
+  Reload: "&aInteractionVisualizerが正常にリロードされました！"
   Toggle:
-    Usage: "&cUsage: /interactionvisualizer toggle <itemstand/itemdrop/hologram>"
-    Modes: "&cToggle Modes: itemstand, itemdrop, hologram"
-    Console: "&cPlease provide a player name: /interactionvisualizer toggle <mode> [player]"
-    ToggleOn: "&aToggled %s on"
-    ToggleOff: "&eToggled %s off"
-    PlayerNotFound: "&cThe player is not online!"
+    Usage: "&c使用方法: /interactionvisualizer toggle <itemstand/itemdrop/hologram>"
+    Modes: "&c切り替えモード: itemstand, itemdrop, hologram"
+    Console: "&cプレイヤー名を次のように記入してください: /interactionvisualizer toggle <mode> [player]"
+    ToggleOn: "&a%s をonにしました"
+    ToggleOff: "&e%s をoffにしました"
+    PlayerNotFound: "&cそのプレイヤーはオンラインではありません！"
 
 GarbageCollector:
-  #How often should the plugin sweep up and remove tile entity blocks that no longer needs to be tracked
-  #Measured in ticks, 20 ticks = 1 second
-  #Adjust this if your server is unable to handle fast updates
+  #プラグインはどれくらいの頻度で、追跡する必要のなくなったタイル・エンティティ・ブロックを掃き出し、取り除くべきか。
+  #20ティック = 1秒
+  #サーバーが高速で更新の処理を行えない場合は、必要に応じてこの値を調整してください。
   Period: 600
 
 TileEntityUpdate:
-  #The plugin will ignore players that are travelling faster than this speed
-  #when updating tile entities
-  #This is horizontal speed
+  #タイルエンティティの更新時にここで定義した速度よりも高速なプレイヤーは無視されます。
+  #これは水平方向の速度です。
   IgnoreMovementSpeed:
     Normal: 1.31
     Flying: 1.49
     Gliding: 1.23
-  #The range in which tile entities in chunks around the player are checked
-  #A range of 0 means only the chunk where the player is standing in is checked
+  #プレイヤーを囲むチャンクのタイルエンティティをチェックする範囲。
+  #0を指定すると、プレイヤーが立っているチャンクのみがチェックされます。
   CheckingRange: 1
 
 LightUpdate:
-  #How often should the plugin update the light level a block that requires it is used
-  #Measured in ticks, 20 ticks = 1 second
-  #Adjust this if your server is unable to handle fast light updates
+  #ライトレベルを必要とするブロックが使用されている場合、プラグインはどのくらいの頻度でライトレベルを更新する必要があるか
+  #20ティック = 1秒
+  #サーバーが高速でライトアップデートを処理できない場合は、必要に応じてこの値を調整してください。
   Period: 10
 
-#Enable InteractionVisualizer for these blocks
+#これらのブロックでInteractionVisualizerを有効にするか決められます(true=有効化、false=無効化)
 Blocks:
   Anvil:
     Enabled: true
@@ -51,12 +50,12 @@ Blocks:
     Enabled: true
   Beacon:
     Enabled: true
-    #How often should the plugin check for block updates
-    #Measured in ticks, 20 ticks = 1 second
-    #Adjust this if your server is unable to handle fast updates / can handle faster updates
+    #プラグインがブロックの更新をチェックする頻度
+    #20ティック = 1秒
+    #サーバーの性能に合わせてこの値を調整してください。
     CheckingPeriod: 20
-    #How should the display text follow the player
-    #Accepts FACE, SQUARE, CIRCLE
+    #表示される文字をどのようにプレイヤーに大して追従させるか
+    #FACE, SQUARE, CIRCLEが使えます。
     PathType: FACE
   BeeHive:
     Enabled: true
@@ -141,7 +140,7 @@ Blocks:
     Enabled: true
     CheckingPeriod: 20
     Options:
-      #Whether to have the name of the disc displayed or not
+      #ディスクの曲名を表示するかどうか
       ShowDiscName: true
   Lectern:
     Enabled: true
@@ -192,18 +191,18 @@ Entities:
   Item:
     Enabled: true
     Options:
-      #Items that matches will not have the display shown
+      #一致する項目は表示されない
       Blacklist:
-        #Strip color codes when matching names
+        #名前の一致時にカラーコードを表示
         StripColorWhenMatching: true
-        #Regex name match
+        #正規表現を使った名前一致
         List:
           - ["^ALTAR Probe.*", "NETHER_STAR"]
           - ["^Blacklisted Item$", "*"]
       RegularFormat: "{Item} &bx{Amount} &6[{Timer}&6]"
       SingularFormat: "{Item} &6[{Timer}&6]"
       ToolsFormat: "{Item} &6[{Durability}&6]"
-      #Hide if there is more than this defined amount of item entities in one block
+      #1つのブロックに定義された量以上のアイテムがある場合は非表示にする。
       Cramping: 6
       Color:
         High: "&a"
@@ -212,10 +211,10 @@ Entities:
   Villager:
     Enabled: true
 
-#Enable these modules for InteractionVisualizer displays
-#ItemStand represents all displays using armorstands and itemframes
-#ItemDrop represents all displays using dropped items
-#Hologram represents all holograpgic displays using armorstands
+#InteractionVisualizerディスプレイのために、これらのモジュールを有効にします。
+#ItemStand は、アーマースタンドとアイテムフレームを使用するすべてのディスプレイを表します。
+#ItemDrop は、ドロップされたアイテムを使用するすべてのディスプレイを表します。
+#Hologram は、アーマースタンドを使用するすべてのホログラフィックディスプレイを表します。
 Modules:
   ItemStand:
     Enabled: true
@@ -229,9 +228,9 @@ Settings:
   PickupAnimationPlayerYOffset: 0
   DisabledWorlds: []
   HideIfViewObstructed: false
-  #The default language
-  #Doesn't do anything on Minecraft 1.13+
-  Language: en_us
+  #デフォルトの言語
+  #Minecraft 1.13以上では何もしない
+  Language: ja_JP
 
 Options:
   Updater: true
