@@ -1,7 +1,5 @@
 # InteractionVisualizer Languages
 
-https://www.spigotmc.org/resources/77050/
-
 https://github.com/LOOHP/InteractionVisualizer
 
 ***
